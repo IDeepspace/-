@@ -1,0 +1,15 @@
+{
+  "name": "favorites",
+  "version": "1.0.0",
+  "description": "前端收藏夹",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepspace",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  }
+}

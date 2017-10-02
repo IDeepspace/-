@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+    <title>关于本站</title>
+    <script src="js/html5shiv.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<article class="about">
+    <!-- 头部 [[ -->
+    <header id='header' class='clearfix'>
+        <div class="main_title fl">
+            <div class="fl title-txt">
+                <h1><a href="index.html">Deepspace</a></h1>
+                <span>前端收藏夹</span>
+            </div>
+        </div>
+    </header>
+    <!-- 头部 ]] -->
+    <!-- 内容区 [[ -->
+    <section class="layout main-wrap  content about">
+        <section class='col-main'>
+            <p class="tips">温馨提示：为了您的体验更佳，请在PC端使用</p>
+            <article class="mainarea item" style="display:block;">
+                <section class="mod">
+                    <h2>前端收藏夹</h2>
+                    <p>由于前端技术更新较快，好资源太多，在这里做个收藏夹，方便自己 , 也方便正在访问本站的你 !</p>
+                </section>
+
+            </article>
+        </section>
+        <!-- 左侧边栏导航 [[ -->
+        <aside class="sidebar col-sub">
+            <ul class="sidebar_list radius">
+                <li class="cur"><a href="#">关于本站</a></li>
+            </ul>
+        </aside>
+        <!-- 左侧边栏导航 ]] -->
+    </section>
+    <footer class='footer'>
+        <nav class='footer_nav'>
+            <ul>
+                <li class="contact clearfix">
+                    <section class="contact_cont fl">
+                        <span>联系我</span>
+                        <p class="author_info"><span>Email：</span>cxin1427@qq.com</p>
+                        <p class="author_info"><span>个人博客：</span><a href="http://togoblog.cn/" target="_blank">http://togoblog.cn/</a></p>
+                    </section>
+                </li>
+                <li>
+                    <p>本站收集了一些前端开发的优秀博客、社区，实用的手册、工具、框架/库，以及在线教程和书籍推荐。为大家解决一些基本的，常见的问题和需求 。</p>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</article>
+<script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var $win=$(window).height();
+        $('.col-main .mainarea').css("min-height",$win-269+'px');
+    })
+</script>
+</body>
+</html>
